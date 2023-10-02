@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron&family=Ubuntu:wght@300&display=swap" rel="stylesheet');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  position: fixed;
+  padding: 0px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  /* background-color: blue; */
+}
+nav.sticky{
+  background-color: aliceblue;
+}
+nav .nav-content{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+
+  /* background-color: red; */
+}
+nav .nav-content .logo a{
+  font-size: 70px;
+  font-weight: 500;
+  color: #2b80c5;
+}
+nav .nav-links{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+nav .nav-links li a{
+  margin: 0px 12px;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 3px 6px;
+
+  /* background-color: red; */
+}
+.home{
+  height: 100vh;
+  width: 100%;
+  background: url('nav\ back.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.text{
+  padding: 20px 70px;
+  text-align: justify;
+  box-shadow: -5px 0 10px rgb(0,0,0,0.1);
+}
+.text h2{
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(6, 92, 92);
+}
